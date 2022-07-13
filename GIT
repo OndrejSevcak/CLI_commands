@@ -1,0 +1,13 @@
+git init
+git add .                               //Stage all (new, modified, deleted) files in current folder
+git add -A                              //Stage all (new, modified, deleted) files
+git commit -m 'message'
+git remote add origin https://adresa
+git push -u origin master
+git status
+git fetch
+git pull
+
+
+git rm file1.txt            //to remove the file from the Git repository and the filesystem
+git rm --cached file1.txt   //to remove the file only from the Git repository and not remove it from the filesystem
