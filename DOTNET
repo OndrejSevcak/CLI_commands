@@ -1,1 +1,4 @@
 dotnet new gitignore
+dotnet --version
+dotnet --list-sdks
+dotnet watch
